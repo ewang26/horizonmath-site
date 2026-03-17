@@ -81,15 +81,15 @@ a:hover { text-decoration-color: var(--fg); }
 }
 
 .hero .subtitle {
-  font-size: 1.35rem;
+  font-size: 1.55rem;
   font-weight: 400;
-  color: var(--fg-2);
+  color: var(--fg);
   margin-bottom: 2rem;
   line-height: 1.6;
 }
 
 .hero .authors {
-  font-size: 1.15rem;
+  font-size: 0.98rem;
   margin-bottom: 0.5rem;
   line-height: 2;
   color: var(--fg);
@@ -103,13 +103,13 @@ a:hover { text-decoration-color: var(--fg); }
 
 .hero .affiliations {
   font-size: 0.82rem;
-  color: var(--fg-3);
+  color: #555;
   margin-bottom: 0.2rem;
 }
 
 .hero .note {
   font-size: 0.78rem;
-  color: var(--fg-3);
+  color: #555;
   margin-bottom: 1.75rem;
 }
 
@@ -228,6 +228,7 @@ a:hover { text-decoration-color: var(--fg); }
   font-size: 1rem;
   line-height: 1.85;
   color: var(--fg-2);
+  text-align: justify;
 }
 
 /* ===== Example Problems ===== */
