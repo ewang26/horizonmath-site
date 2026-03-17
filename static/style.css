@@ -74,14 +74,14 @@ a:hover { text-decoration-color: var(--fg); }
 }
 
 .hero .title {
-  font-size: 2.75rem;
+  font-size: 3rem;
   font-weight: 700;
   letter-spacing: -0.03em;
   margin-bottom: 0.5rem;
 }
 
 .hero .subtitle {
-  font-size: 1.15rem;
+  font-size: 1.35rem;
   font-weight: 400;
   color: var(--fg-2);
   margin-bottom: 2rem;
@@ -89,7 +89,7 @@ a:hover { text-decoration-color: var(--fg); }
 }
 
 .hero .authors {
-  font-size: 0.95rem;
+  font-size: 1.15rem;
   margin-bottom: 0.5rem;
   line-height: 2;
   color: var(--fg);
@@ -401,10 +401,10 @@ tbody td {
 
 .table-wrapper { overflow-x: auto; }
 
-.comparison-table { min-width: 580px; }
+.comparison-table { min-width: 480px; }
 
-.comparison-table td:nth-child(n+4),
-.comparison-table th:nth-child(n+4) {
+.comparison-table td:nth-child(n+3),
+.comparison-table th:nth-child(n+3) {
   text-align: center;
 }
 
